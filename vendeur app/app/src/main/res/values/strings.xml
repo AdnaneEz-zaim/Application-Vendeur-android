@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Vendeur</string>
+    <string-array name="categ">
+        <item><b><i>Selectioner</i></b></item>
+        <item><b>categorer1 (Kg)</b></item>
+        <item><b>categorer2 (Unite)</b></item>
+        <item><b>categorer3 (litre)</b></item>
+    </string-array>
+    <string name="dec"><u>déconnecter</u></string>
+
+    <string name="title_activity_espace_vendeur">espaceVendeur</string>
+    <string name="tab_text_1"><b>demandes</b></string>
+    <string name="tab_text_2"><b>réseravations</b></string>
+    <string name="tab_text_3"><b>carte</b></string>
+    <string name="solde"><b>999.999,0</b></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="hello_blank_fragment2">Hello blank </string>
+    <string name="hello_blank_fragment1">Hello blank fragment0</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="access_token" translatable="false">pk.eyJ1IjoiYWRuYW5lZXp6IiwiYSI6ImNrOHFjMXU1ODAxdTgzb3BteHFkNTRveXEifQ.rQz2E2OVcaSOTBcdcS43BQ</string>
+    <string name="user_location_permission_explanation">This app needs location permissions to show its functionality.</string>
+    <string name="user_location_permission_not_granted">You didn\'t grant location permissions.</string>
+    <string name="ali_baba"><b><u>ali baba</u></b></string>
+</resources>

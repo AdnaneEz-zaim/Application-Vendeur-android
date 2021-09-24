@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <com.mapbox.mapboxsdk.maps.MapView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/mapView"
+            mapbox:mapbox_cameraTargetLat="38.9098"
+            mapbox:mapbox_cameraTargetLng="-77.0295"
+            mapbox:mapbox_cameraZoom="12"
+
+           >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+            <Button
+                android:id="@+id/bottonClic"
+                android:layout_width="100sp"
+                android:layout_height="35sp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:background="@drawable/buttonclique"
+
+                />
+
+            <Button
+                android:id="@+id/fullsrcin"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="5sp"
+                android:background="@drawable/fullscreen" />
+
+        </RelativeLayout>
+    </com.mapbox.mapboxsdk.maps.MapView>
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+</RelativeLayout>
